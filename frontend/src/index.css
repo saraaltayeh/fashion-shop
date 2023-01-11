@@ -47,3 +47,11 @@ margin: 1rem;
 .product-info {
   padding: 1rem;
 }
+
+.btn.btn-primary{
+  background-color: #FFC107;
+}
+
+.rating span{
+color: #FFC107;
+}
