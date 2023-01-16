@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": "https://saraaltayeh.github.io/fashion-shop",
   "proxy": "http://localhost:3000/",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
     "cors": "^2.8.5",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-axios": "^2.0.6",
     "react-bootstrap": "^2.7.0",
@@ -22,6 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
